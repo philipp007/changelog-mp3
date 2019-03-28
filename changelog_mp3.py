@@ -7,6 +7,7 @@ base_urls = ['https://cdn.changelog.com/uploads/podcast/<id>/the-changelog-<id>.
              'https://cdn.changelog.com/uploads/founderstalk/<id>/founders-talk-<id>.mp3',
              'https://cdn.changelog.com/uploads/spotlight/<id>/spotlight-<id>.mp3',
              'https://cdn.changelog.com/uploads/jsparty/<id>/js-party-<id>.mp3',
+             'https://cdn.changelog.com/uploads/practicalai/<id>/practical-ai-<id>.mp3'
             ]
 
 
@@ -35,6 +36,7 @@ def main():
     print('(4) - Founders Talk')
     print('(5) - Spotlight')
     print('(6) - JS Party')
+    print('(7) - Practical AI')
 
     n = int(input())
     download_podcast(n)
